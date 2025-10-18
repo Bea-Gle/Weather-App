@@ -1,0 +1,109 @@
+.first-color {
+  background: #ececec;
+}
+
+.second-color {
+  background: #9fd3c7;
+}
+
+.third-color {
+  background: #385170;
+}
+
+.fourth-color {
+  background: #142d4c;
+}
+
+body {
+  background-color: #385170;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: block;
+  margin: 50px 90px auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.enter-city-form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px;
+}
+
+.insertCity {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  font-size: large;
+  padding: 20px;
+  margin: 0px;
+}
+
+.submit-city-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ececec;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.submit-city-button:hover {
+  background-color: #9fd3c7;
+  color: white;
+}
+
+.temperature-display {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 10px;
+  margin: 10px;
+}
+
+.current-weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.current-weather-info h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.current-weather-info p {
+  margin: 0;
+  font-size: 1rem;
+}
+.current-weather-info strong {
+  color: #385170;
+}
+
+.line {
+  border-bottom: 1px solid #ececec;
+  opacity: 0.33;
+}
+
+footer {
+  font-size: small;
+  margin: 30px auto;
+}
+
+footer .link {
+  color: #be3144;
+}
