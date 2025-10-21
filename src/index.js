@@ -36,6 +36,14 @@ function displayTemperature(response) {
   let windSpeedElement = document.querySelector("#windSpeed");
   let windSpeed = Number(response.data.wind.speed.toFixed(1));
   windSpeedElement.innerHTML = `${windSpeed}Km/h, `;
+
+  let conditiondescriptionElement = document.querySelector(
+    "#condition-description"
+  );
+  let description = response.data.condition.description;
+  let condicionDescription =
+    description[0].toUpperCase() + description.slice(1);
+  conditiondescriptionElement.innerHTML = condicionDescription;
 }
 
 function searchCity(event) {
