@@ -25,7 +25,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../WeatherBackground.jpg");
+  background-image: url("../images/WeatherBackground.jpg");
   background-position: center;
   background-size: cover;
   filter: blur(10px);
