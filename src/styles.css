@@ -109,7 +109,8 @@ body {
 .current-weather-info strong {
   color: #385170;
 }
-.forecast-container {
+
+.forecast {
   display: flex;
   justify-content: center;
 }
