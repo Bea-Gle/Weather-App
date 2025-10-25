@@ -83,6 +83,9 @@ body {
   margin: 10px;
   padding: 10px;
 }
+.temperature-display #icon {
+  width: 100px;
+}
 
 .current-weather-info {
   display: flex;
@@ -132,9 +135,9 @@ body {
   font-size: xx-large;
 }
 
-.forecast-icon {
+.forecast-icon img {
+  width: 70px;
   text-align: center;
-  font-size: xxx-large;
 }
 
 .forecast-temperatures {
